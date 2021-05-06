@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		327ADC17264477D9005E7827 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 327ADC16264477D9005E7827 /* Auth0.plist */; };
 		329CE4042644758E00294A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329CE4032644758E00294A21 /* AppDelegate.swift */; };
 		329CE4062644758E00294A21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329CE4052644758E00294A21 /* SceneDelegate.swift */; };
 		329CE4082644758E00294A21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329CE4072644758E00294A21 /* ContentView.swift */; };
 		329CE40A2644759000294A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329CE4092644759000294A21 /* Assets.xcassets */; };
 		329CE40D2644759000294A21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329CE40C2644759000294A21 /* Preview Assets.xcassets */; };
 		329CE4102644759000294A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329CE40E2644759000294A21 /* LaunchScreen.storyboard */; };
+		E61329DB1EB76E7D8DBEE730 /* Pods_auth0deneme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5A535B0EA298661AE38F09 /* Pods_auth0deneme.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FABC3C8C63EC9985F0830A6 /* Pods-auth0deneme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth0deneme.debug.xcconfig"; path = "Target Support Files/Pods-auth0deneme/Pods-auth0deneme.debug.xcconfig"; sourceTree = "<group>"; };
+		327ADC16264477D9005E7827 /* Auth0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		329CE4002644758E00294A21 /* auth0deneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = auth0deneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329CE4032644758E00294A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		329CE4052644758E00294A21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		329CE40C2644759000294A21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		329CE40F2644759000294A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329CE4112644759000294A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1B3483DF12C68D3DD00EF7 /* Pods-auth0deneme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth0deneme.release.xcconfig"; path = "Target Support Files/Pods-auth0deneme/Pods-auth0deneme.release.xcconfig"; sourceTree = "<group>"; };
+		FC5A535B0EA298661AE38F09 /* Pods_auth0deneme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_auth0deneme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61329DB1EB76E7D8DBEE730 /* Pods_auth0deneme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				329CE4022644758E00294A21 /* auth0deneme */,
 				329CE4012644758E00294A21 /* Products */,
+				BF4EF5F140CFCB604C88D019 /* Pods */,
+				CEF21041BFDFF6C82EDF730D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +67,7 @@
 			children = (
 				329CE4032644758E00294A21 /* AppDelegate.swift */,
 				329CE4052644758E00294A21 /* SceneDelegate.swift */,
+				327ADC16264477D9005E7827 /* Auth0.plist */,
 				329CE4072644758E00294A21 /* ContentView.swift */,
 				329CE4092644759000294A21 /* Assets.xcassets */,
 				329CE40E2644759000294A21 /* LaunchScreen.storyboard */,
@@ -75,6 +85,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BF4EF5F140CFCB604C88D019 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FABC3C8C63EC9985F0830A6 /* Pods-auth0deneme.debug.xcconfig */,
+				EC1B3483DF12C68D3DD00EF7 /* Pods-auth0deneme.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEF21041BFDFF6C82EDF730D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A535B0EA298661AE38F09 /* Pods_auth0deneme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 329CE4142644759000294A21 /* Build configuration list for PBXNativeTarget "auth0deneme" */;
 			buildPhases = (
+				CA70C41AD31EEB6A24C47F59 /* [CP] Check Pods Manifest.lock */,
 				329CE3FC2644758E00294A21 /* Sources */,
 				329CE3FD2644758E00294A21 /* Frameworks */,
 				329CE3FE2644758E00294A21 /* Resources */,
+				043F4462914BD0184D7B886F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,10 +164,53 @@
 				329CE4102644759000294A21 /* LaunchScreen.storyboard in Resources */,
 				329CE40D2644759000294A21 /* Preview Assets.xcassets in Resources */,
 				329CE40A2644759000294A21 /* Assets.xcassets in Resources */,
+				327ADC17264477D9005E7827 /* Auth0.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		043F4462914BD0184D7B886F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-auth0deneme/Pods-auth0deneme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-auth0deneme/Pods-auth0deneme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-auth0deneme/Pods-auth0deneme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA70C41AD31EEB6A24C47F59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-auth0deneme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		329CE3FC2644758E00294A21 /* Sources */ = {
@@ -283,6 +355,7 @@
 		};
 		329CE4152644759000294A21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FABC3C8C63EC9985F0830A6 /* Pods-auth0deneme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +377,7 @@
 		};
 		329CE4162644759000294A21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1B3483DF12C68D3DD00EF7 /* Pods-auth0deneme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
