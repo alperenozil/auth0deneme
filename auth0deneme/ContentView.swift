@@ -10,9 +10,6 @@ import Auth0
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-        
         Button("Login") {
             Auth0
                 .webAuth()
@@ -26,7 +23,7 @@ struct ContentView: View {
                     case .success(let credentials):
                         // Do something with credentials e.g.: save them.
                         // Auth0 will automatically dismiss the login page
-                        print("Credentials: \(credentials)")
+                        print("Credentials: \(credentials.idToken)")
                     }
             }
         }
